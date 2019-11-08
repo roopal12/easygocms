@@ -69,6 +69,7 @@ public class HelpScreenActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(HelpScreenActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -119,7 +120,7 @@ public class HelpScreenActivity extends AppCompatActivity {
                 } else {
 //                    Toast.makeText(getApplicationContext(), "Permission denied", Toast.LENGTH_SHORT).show();
                 }
-                return;
+
             }
 
         }
@@ -138,7 +139,11 @@ public class HelpScreenActivity extends AppCompatActivity {
             }
         }
 
-        final String Admin_Id = "123";
+
+        sharedPrefLogin = getSharedPreferences("loginDetails", Context.MODE_PRIVATE);
+        final String Admin_Id = sharedPrefLogin.getString("admin_id", "");
+        System.out.println("adminid :" + Admin_Id);
+
         final String Imei_No = mobileIMEI;
         StringRequest stringRequest = new StringRequest(Request.Method.POST, URLline,
                 new Response.Listener<String>() {

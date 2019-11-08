@@ -35,8 +35,8 @@ public class RingingActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent=new Intent(RingingActivity.this, HomeScreenActivity.class);
-                startActivity(intent
-                );
+                startActivity(intent);
+                finish();
             }
         });
         webViewRinging=findViewById(R.id.webviewringing);

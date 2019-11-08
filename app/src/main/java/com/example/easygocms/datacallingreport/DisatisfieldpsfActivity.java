@@ -35,8 +35,8 @@ public class DisatisfieldpsfActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent=new Intent(DisatisfieldpsfActivity.this, HomeScreenActivity.class);
-                startActivity(intent
-                );
+                startActivity(intent);
+                finish();
             }
         });
         webViewDisatisPsf=findViewById(R.id.webviewdisatisisfield);

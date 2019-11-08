@@ -41,6 +41,7 @@ public class RCServicereminderActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(RCServicereminderActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

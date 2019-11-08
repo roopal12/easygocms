@@ -37,6 +37,7 @@ public class RCSalesEnqActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(RCSalesEnqActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

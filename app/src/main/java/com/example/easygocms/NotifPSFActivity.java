@@ -37,6 +37,8 @@ public class NotifPSFActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(NotifPSFActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
+
             }
         });
 

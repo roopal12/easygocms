@@ -29,6 +29,7 @@ public class RingingCallMainActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(RingingCallMainActivity.this,HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         LLringingsereminder=findViewById(R.id.ringingsereminder);
@@ -37,6 +38,7 @@ public class RingingCallMainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(RingingCallMainActivity.this,RCServicereminderActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         LLringingpsf=findViewById(R.id.ringingpsf);
@@ -45,6 +47,7 @@ public class RingingCallMainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(RingingCallMainActivity.this, RCPspActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         LLringinglostcustomer=findViewById(R.id.ringinglostcustomer);
@@ -53,6 +56,7 @@ public class RingingCallMainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(RingingCallMainActivity.this, RCLostCustActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         LLringingsalesenquiry=findViewById(R.id.ringingsalesenquiry);
@@ -61,6 +65,7 @@ public class RingingCallMainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(RingingCallMainActivity.this, RCSalesEnqActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

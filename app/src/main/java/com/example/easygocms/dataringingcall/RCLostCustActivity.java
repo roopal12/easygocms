@@ -38,6 +38,7 @@ public class RCLostCustActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(RCLostCustActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

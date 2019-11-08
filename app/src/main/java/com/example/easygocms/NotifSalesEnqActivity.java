@@ -37,6 +37,8 @@ public class NotifSalesEnqActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(NotifSalesEnqActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
+
             }
         });
 

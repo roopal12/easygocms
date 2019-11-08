@@ -38,6 +38,7 @@ public class ServiecBookingActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(ServiecBookingActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 

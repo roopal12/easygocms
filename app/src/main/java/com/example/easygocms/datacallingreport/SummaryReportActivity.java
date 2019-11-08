@@ -34,6 +34,7 @@ public class SummaryReportActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(SummaryReportActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 

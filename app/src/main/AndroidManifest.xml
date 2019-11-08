@@ -52,7 +52,8 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".datarecordactivities.ServiecReminderActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
         <activity
             android:name=".datarecordactivities.PSFActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

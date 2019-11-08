@@ -39,8 +39,8 @@ public class CallReminderActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(CallReminderActivity.this, HomeScreenActivity.class);
-                startActivity(intent
-                );
+                startActivity(intent);
+                finish();
             }
         });
 

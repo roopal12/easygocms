@@ -38,8 +38,8 @@ public class BookingCallActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(BookingCallActivity.this, HomeScreenActivity.class);
-                startActivity(intent
-                );
+                startActivity(intent);
+                finish();
             }
         });
     }

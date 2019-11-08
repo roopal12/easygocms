@@ -38,6 +38,8 @@ public class NotifSerRemindActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(NotifSerRemindActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
+
             }
         });
 

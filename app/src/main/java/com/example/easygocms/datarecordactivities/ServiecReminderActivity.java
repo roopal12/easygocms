@@ -36,6 +36,7 @@ public class ServiecReminderActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(ServiecReminderActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 

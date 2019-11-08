@@ -38,6 +38,7 @@ public class RCPspActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(RCPspActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

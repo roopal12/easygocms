@@ -38,6 +38,7 @@ public class PSFSummaryActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(PSFSummaryActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

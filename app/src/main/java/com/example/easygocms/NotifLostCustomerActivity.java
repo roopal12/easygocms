@@ -36,6 +36,7 @@ public class NotifLostCustomerActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(NotifLostCustomerActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
